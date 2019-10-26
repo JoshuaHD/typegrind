@@ -1,0 +1,45 @@
+h1, p {
+  font-family: Lato;
+}
+.word {
+  word-wrap: break-word;
+  display: block;
+  float: left;
+  padding: 4px;
+}
+.correct{
+  color: green;
+}
+.incorrect, strike{
+  color: red;
+}
+.active {
+  background-color: lightsteelblue;
+}
+.active-incorrect {
+  background-color: red;
+}
+.active, .active-incorrect {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.sentence {
+  font-size: 200%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+input, button {
+  font-size: 180%;
+}
+#root {
+  padding: 1em;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "typegrind",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.1.1",
+    "recharts": "0.22.5",
+    "react-dom": "16.1.1",
+    "semantic-ui-react": "0.77.2",
+    "react-transition-group": "1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
