@@ -1,8 +1,6 @@
 import React from 'react'
 import { Input, Segment, Table, Button, Icon, Statistic, Container, Header } from 'semantic-ui-react'
 
-import LineBarAreaComposedChart from './charts.js'
-
 class TestInputField extends React.Component {
   constructor(props) {
     super(props);
